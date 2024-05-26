@@ -36,7 +36,7 @@ func main() {
 	case occupancyRate >= 0 && occupancyRate < 30:
 		fmt.Println("				Occupancy level : low")
 	}
-	fmt.Println("				Occupancy rate : ", occupancyRate)
+	fmt.Println("				Occupancy rate : ", occupancyRate, "%")
 	fmt.Println("Number of rooms :", numberRooms)
 	fmt.Println("Rooms available :", availableRooms)
 
